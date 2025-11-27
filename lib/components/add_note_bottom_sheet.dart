@@ -11,7 +11,10 @@ class AddNoteSheet extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(height: 32,),
-          CustomTextFeild(),
+          CustomTextFeild(hint: 'Title',),
+          SizedBox(height: 16,),
+          CustomTextFeild(hint: 'Content...',height: 10,),
+
         ],
       
       ),
