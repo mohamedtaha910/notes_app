@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/constant.dart';
 
+
 class CustomTextFeild extends StatelessWidget {
   const CustomTextFeild({super.key, required this.hint,  this.height = 1.0});
   final String hint;
@@ -25,7 +26,7 @@ class CustomTextFeild extends StatelessWidget {
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
-          borderSide: BorderSide(color: Color.fromARGB(255, 249, 95, 48)),
+          borderSide: BorderSide(color:kPrimaryColor),
         ),
       ),
     );
