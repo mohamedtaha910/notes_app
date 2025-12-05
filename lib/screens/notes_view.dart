@@ -21,8 +21,9 @@ class NotesView extends StatelessWidget {
         },
         backgroundColor: const Color.fromARGB(255, 45, 0, 0),
         child: Icon(
-          // Icons.edit_note_rounded,
           Icons.edit_note_rounded,
+          // Icons.add,
+          // Icons.notes,
           // color: const Color.fromARGB(255, 250, 110, 67),
           color: kPrimaryColor,
         ),
